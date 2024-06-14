@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "betheyoucommunity"
+  },
+  "targets": {
+    "betheyoucommunity": {
+      "hosting": {
+        "kotingroup": [
+          "kotingroup"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "target": "kotingroup",
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
