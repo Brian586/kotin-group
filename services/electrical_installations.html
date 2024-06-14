@@ -38,6 +38,10 @@
     <meta name="twitter:card" content="summary_large_image">
     <!-- Bootstrap CSS -->
     <link href="../assets/common/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+
     <!-- <link href="../assets/common/css/all.min.css" rel="stylesheet"> -->
     <!-- <link rel="stylesheet" href="../assets/common/css/line-awesome.min.css"> -->
     <link rel="stylesheet" href="../assets/common/css/font-awesome.css">
@@ -109,7 +113,10 @@
     <!--==================== Sidebar Overlay End ====================-->
 
     <!-- ==================== Scroll to Top End Here ==================== -->
-    <a class="scroll-top"><i class="fa fa-angle-double-up"></i></a>
+    <a class="scroll-top"><span class="material-symbols-rounded">
+            keyboard_arrow_up
+        </span>
+        <!-- <i class="fa fa-angle-double-up"></i> --></a>
     <!-- ==================== Scroll to Top End Here ==================== -->
     <!--========================== Header section Start ==========================-->
     <div class="header-main-area">
@@ -119,12 +126,23 @@
                 <div class="top-header-wrapper">
                     <div class="top-contact">
                         <ul class="contact-list">
-                            <li class="contact-list__item"> <span class="contact-list__item-icon"><i
-                                        class="fa fa-phone"></i></span><a href="tel:+254 721315821"
-                                    class="contact-list__link">+254 721315821</a></li>
-                            <li class="contact-list__item"> <span class="contact-list__item-icon"><i
-                                        class="fa fa-envelope"></i></span><a href="mailto:hello@kotingroup.co.ke"
-                                    class="contact-list__link">hello@kotingroup.co.ke</a></li>
+                            <li class="contact-list__item">
+                                <span class="contact-list__item-icon material-symbols-rounded">
+                                    call
+                                </span>
+                                <!-- <span class="contact-list__item-icon"><i
+                                        class="fa fa-phone"></i></span> -->
+                                <a href="tel:+254 721315821" class="contact-list__link">+254 721315821</a>
+                            </li>
+                            <li class="contact-list__item">
+                                <span class="contact-list__item-icon material-symbols-rounded">
+                                    mail
+                                </span>
+                                <!-- <span class="contact-list__item-icon"><i
+                                        class="fa fa-envelope"></i></span> -->
+                                <a href="mailto:hello@kotingroup.co.ke"
+                                    class="contact-list__link">hello@kotingroup.co.ke</a>
+                            </li>
                         </ul>
                     </div>
                     <div class="top-button">
@@ -200,16 +218,29 @@
                                 <li></li>
                                 <li>
                                     <div class="light-dark-btn-wrap ms-1" id="light-dark-checkbox">
-                                        <i class="fa fa-moon-o mon-icon" aria-hidden="true"></i>
-                                        <i class="fa fa-sun-o sun-icon" aria-hidden="true"></i>
+                                        <span class="material-symbols-rounded sun-icon">
+                                            light_mode
+                                        </span>
+                                        <span class="material-symbols-rounded mon-icon">
+                                            dark_mode
+                                        </span>
+                                        <!-- <i class="fa fa-moon-o mon-icon" aria-hidden="true"></i>
+                                        <i class="fa fa-sun-o sun-icon" aria-hidden="true"></i> -->
                                     </div>
                                 </li>
                                 <li>
-                                    <a class='btn btn--base' href="mailto:hello@kotingroup.co.ke"><i
-                                            class="fa fa-sign-in" aria-hidden="true"></i> Inquire Now</a>
+                                    <a class='btn btn--base' href="mailto:hello@kotingroup.co.ke">
+                                        <span class="material-symbols-rounded">
+                                            login
+                                        </span>
+                                        <!-- <i class="fa fa-sign-in" aria-hidden="true"></i>  -->
+                                        Inquire Now</a>
                                 </li>
                                 <li>
-                                    <i class="fa fa-bars sidebar-menu-show-hide"></i>
+                                    <span class="material-symbols-rounded sidebar-menu-show-hide">
+                                        menu
+                                    </span>
+                                    <!-- <i class="fa fa-bars sidebar-menu-show-hide"></i> -->
                                 </li>
                             </ul>
                         </div>
@@ -235,7 +266,10 @@
                             alt="Laravel"></a>
                 </div>
             </div>
-            <i class="fa fa-times close-hide-show"></i>
+            <span class="material-symbols-rounded close-hide-show">
+                close
+            </span>
+            <!-- <i class="fa fa-times close-hide-show"></i> -->
         </div>
         <ul class="sidebar-menu-list">
             <!-- <li class="sidebar-menu-list__item ">
@@ -290,9 +324,18 @@
                     <div class="breadcumb__wrapper">
                         <h2 class="breadcumb__title">Electrical Installations </h2>
                         <ul class="breadcumb__list">
-                            <li class="breadcumb__item"><a href="/" class="breadcumb__link"> <i class="fa fa-home"></i>
+                            <li class="breadcumb__item"><a href="/" class="breadcumb__link">
+                                    <span class="material-symbols-rounded">
+                                        home
+                                    </span>
+                                    <!-- <i class="fa fa-home"></i> -->
                                     Home</a> </li>
-                            <li class="breadcumb__item"><i class="fa fa-arrow-right"></i></li>
+                            <li class="breadcumb__item">
+                                <span class="material-symbols-rounded">
+                                    chevron_right
+                                </span>
+                                <!-- <i class="fa fa-arrow-right"></i> -->
+                            </li>
                             <li class="breadcumb__item"> <span class="breadcumb__item-text"> Electrical Installations
                                 </span> </li>
                         </ul>
@@ -424,7 +467,10 @@
                             <ul class="footer-contact-menu">
                                 <li class="footer-contact-menu__item">
                                     <div class="footer-contact-menu__item-icon">
-                                        <i class="fa fa-map-marker"></i>
+                                        <span class="material-symbols-rounded">
+                                            location_on
+                                        </span>
+                                        <!-- <i class="fa fa-map-marker"></i> -->
                                     </div>
                                     <div class="footer-contact-menu__item-content">
                                         <p>Nairobi, Kenya</p>
@@ -432,7 +478,10 @@
                                 </li>
                                 <li class="footer-contact-menu__item">
                                     <div class="footer-contact-menu__item-icon">
-                                        <i class="fa fa-envelope"></i>
+                                        <span class="material-symbols-rounded">
+                                            mail
+                                        </span>
+                                        <!-- <i class="fa fa-envelope"></i> -->
                                     </div>
                                     <div class="footer-contact-menu__item-content">
                                         <p>hello@kotingroup.co.ke</p>
@@ -440,7 +489,10 @@
                                 </li>
                                 <li class="footer-contact-menu__item">
                                     <div class="footer-contact-menu__item-icon">
-                                        <i class="fa fa-phone"></i>
+                                        <span class="material-symbols-rounded">
+                                            call
+                                        </span>
+                                        <!-- <i class="fa fa-phone"></i> -->
                                     </div>
                                     <div class="footer-contact-menu__item-content">
                                         <p>+254 721315821</p>
